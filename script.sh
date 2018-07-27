@@ -1,0 +1,1 @@
+/opt/spark-2.1.3-bin-hadoop2.6/bin/spark-submit  --class org.apache.spark.examples.SparkPi --master spark://spark-master:7077 /opt/spark-2.1.3-bin-hadoop2.6/examples/jars/spark-examples_2.11-2.1.3.jar 
