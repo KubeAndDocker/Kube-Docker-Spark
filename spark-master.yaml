@@ -13,8 +13,10 @@ spec:
     spec:
       containers:
       - name : spark-master
-        image: 1vxn51/spark
+        image: 1vxn51/spark_f
         imagePullPolicy: "IfNotPresent"
+        securityContext:
+          privileged: true
         ports:
         - containerPort: 7077
           protocol: TCP

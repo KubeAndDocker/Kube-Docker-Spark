@@ -12,7 +12,7 @@ spec:
         name: spark-worker
     spec:
       containers:
-      - image: 1vxn51/spark
+      - image: 1vxn51/spark_f
         imagePullPolicy : "IfNotPresent"
         name: spark-worker
         ports:
